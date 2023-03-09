@@ -1,25 +1,25 @@
 # Тестовое задание 
 
 ## Описание задания
-[task.pdf](Docs/Task/task.pdf)
+[task.pdf](CsvHandler/Docs/task.pdf)
 
 ## Описание решения
 
 ### API
-![Swagger API definition.png](Docs/Img/Swagger%20API%20definition.png)
+![Swagger API definition.png](CsvHandler/Docs/Img/Swagger%20API%20definition.png)
 
-![Endpoint-SearchByResults.png](Docs/Img/Endpoint-SearchByResults.png)
+![Endpoint-SearchByResults.png](CsvHandler/Docs/Img/Endpoint-SearchByResults.png)
 
-![API schemas.png](Docs/Img/API%20schemas.png)
+![API schemas.png](CsvHandler/Docs/Img/API%20schemas.png)
 
 
 ### Схема БД:
-![ERD.drawio.png](./Docs/Img/ERD.drawio.png)
+![ERD.drawio.png](CsvHandler/Docs/Img/ERD.drawio.png)
 
 ### Ручное тестирование
-[Скрипт для генерации](./Docs/CsvExamples/csv_generator.py)
+[Скрипт для генерации](CsvHandler/Docs/CsvExamples/csv_generator.py)
 
-[Тестовые файлы](./Docs/CsvExamples)
+[Тестовые файлы](CsvHandler/Docs/CsvExamples)
 
 > Команда для генерации `file1.csv`
 
@@ -30,4 +30,4 @@
     python3 ./csv_generator.py --metric-min 100 --metric-max 200 --shift 1 --count-rows 1000 > ./file2.csv
 
 ### Модульное тестирование
-[UnitTests.cs](../Tests/UnitTests.cs)
+[UnitTests.cs](Tests/UnitTests.cs)
